@@ -15,11 +15,9 @@
           = render 'layouts/navigation'
     #main{:role => "main"}
       .container
-        .content
-          .row
-            .span12
-              = render 'layouts/messages'
-              = yield
-          %footer
+        = yield
+        %footer
+          %p
+            = link_to '@dahotre', 'https://github.com/dahotre'
       / ! end of .container
     / ! end of #main

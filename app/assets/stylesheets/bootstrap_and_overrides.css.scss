@@ -1,3 +1,20 @@
 @import "bootstrap";
-body { padding-top: 60px; }
+body { padding-top: 60px; font-family: 'Muli', 'Helvetica Neue', Helvetica, arial, sans-serif;}
 @import "bootstrap-responsive";
+#options {
+  border: 0px;
+  font-family: Monaco, Consolas;
+  font-size: 0.8em;
+  width: 480px;
+}
+#textarea {
+  font-family: 'Muli', 'Helvetica Neue', Helvetica, arial, sans-serif;
+  font-size: 1.3em;
+  @media (min-width: 480px) {
+    padding: 10px;
+  }
+  @media (min-width: 767px) {
+    padding: 20px;
+  }
+}
+
